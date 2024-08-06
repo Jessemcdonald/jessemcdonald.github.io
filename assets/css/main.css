@@ -3283,6 +3283,35 @@ input, select, textarea {
 						padding-top: 0;
 					}
 
+
+
+
+
+
+		/* Add this to your CSS file */
+
+/* Base styles for header */
+#header {
+    text-align: center;
+}
+
+#header h1#logo a {
+    font-size: 2em; /* Adjust font size for larger screens */
+    line-height: 1.2; /* Reduce line height to decrease spacing */
+}
+
+/* Mobile-specific styles */
+@media only screen and (max-width: 767px) {
+    #header h1#logo a {
+        font-size: 1.5em; /* Adjust font size for mobile */
+        line-height: 1.1; /* Further reduce line height for mobile */
+    }
+
+    #header {
+        padding: 10px; /* Adjust padding for mobile */
+    }
+}
+
 					ul.actions li > * {
 						width: 100%;
 						margin: 0 !important;
