@@ -21,8 +21,30 @@ h1 {
 .container {
   width: 80%;
   margin: auto;
-  max-width: 1000px; /* Optional: Set a maximum width for responsiveness */
+  max-width: 1000px;
 }
 
 .main {
-  
+  /* Add styles for the main content here */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+  header {
+    padding: 10px;
+  }
+  .container {
+    width: 90%;
+  }
+  /* Add more styles for smaller screens as needed */
+}
