@@ -1,50 +1,61 @@
+/* General Styles */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #fff;
-  margin: 0;
-  padding: 0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
-}
-
-h1 {
-  font-size: 2em;
-  margin: 0;
-  padding: 10px;
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
 }
 
 .container {
-  width: 80%;
-  margin: auto;
-  max-width: 1000px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.main {
-  /* Add styles for the main content here */
+h1, h2, h3 {
+    font-weight: 300;
 }
 
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-  text-align: center;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  body {
+ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
     padding: 10px;
-  }
-  header {
-    padding: 10px;
-  }
-  .container {
-    width: 90%;
-  }
-  /* Add more styles for smaller screens as needed */
+    border-left: 3px solid #333;
+}
+
+iframe {
+    border: none;
+    margin-top: 20px;
+}
+
+/* "Return to top" button */
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#topBtn:hover {
+    background-color: #555;
 }
