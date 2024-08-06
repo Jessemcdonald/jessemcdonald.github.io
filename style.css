@@ -1,13 +1,13 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header, footer {
-    background-color: #333;
+    background-color: #87CEEB; /* Light blue color */
     color: white;
     text-align: center;
     padding: 1em 0;
@@ -52,10 +52,21 @@ iframe {
     background-color: #333;
     color: white;
     cursor: pointer;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 20px;
+    border-radius: 50px; /* Make the button round */
+    font-size: 16px;
 }
 
 #topBtn:hover {
     background-color: #555;
+}
+
+/* Modern font for the entire site */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Ensure the font is applied to header elements */
+header h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
 }
