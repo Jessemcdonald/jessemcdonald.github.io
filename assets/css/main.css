@@ -3284,7 +3284,11 @@ input, select, textarea {
 					}
 
 
-
+.centered-form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
