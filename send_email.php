@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = htmlspecialchars($_POST['message']);
 
     // Recipient email address
-    $to = 'your-email@example.com';  // Replace with your email address
+    $to = 'admin@rivereastrealestate.ca';  // Replace with your email address
 
     // Email subject
     $email_subject = "Service Request: $subject";
