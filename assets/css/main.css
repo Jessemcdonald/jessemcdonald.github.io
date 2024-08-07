@@ -3285,7 +3285,27 @@ input, select, textarea {
 
 
 
+#contact .contact-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+#contact .contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .icons {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#contact .icons li {
+    margin-left: 15px;
+}
 
 
 		/* Add this to your CSS file */
