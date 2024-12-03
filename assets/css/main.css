@@ -3371,4 +3371,26 @@ input, select, textarea {
 				padding: 0;
 			}
 
+
+#popup-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #809ff; /* Or whatever color screams 'look at me!' */
+    text-align: center;
+    z-index: 1000;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    min-height: 50px; /* Ensure there's enough space for vertical centering */
+}
+#banner-message {
+    font-size: 25px;
+    font-weight: bold;
+     color: #000000; 
+}
+
+		
+
 	}
